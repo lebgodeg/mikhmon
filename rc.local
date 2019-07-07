@@ -10,5 +10,6 @@
 # bits.
 #
 # By default this script does nothing.
+systemctl daemon-reload
 sleep 10 && cd /var/www/html/mikbotam/Saldo && php Core_Saldo_Nonsaldo.php > /dev/null 2>&1&
 exit 0
