@@ -1,6 +1,7 @@
 #!/bin/bash
-apt update
-apt upgrade
+
+#update
+apt-get update && apt-get upgrade -y
 
 #MariaDB (Pengganti MySQL) 
 apt-get -y install mariadb-server mariadb-client
