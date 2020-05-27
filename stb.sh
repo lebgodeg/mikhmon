@@ -54,10 +54,10 @@ systemctl enable rc-local
 systemctl start rc-local.service
 cd
 
-https://raw.githubusercontent.com/lebgodeg/mikhmon/master/cek_mikbotam.sh
+wget https://raw.githubusercontent.com/lebgodeg/mikhmon/master/cek_mikbotam.sh
 
 cd /etc/cron.d/
-https://raw.githubusercontent.com/lebgodeg/mikhmon/master/cek_mikbotam
+wget https://raw.githubusercontent.com/lebgodeg/mikhmon/master/cek_mikbotam
 
 #apt-get install dnsutils -y
 #apt-get install dnsmasq -y
